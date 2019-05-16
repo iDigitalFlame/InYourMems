@@ -7,3 +7,5 @@ The code here used a new method of cross-process memory injection to deploy dete
 Slides are here: https://github.com/iDigitalFlame/inyourmems/Slides.pdf
 
 More Information here: http://idfla.me/in-your-mems
+
+Don't use this code for bad things. I am not responsible for anything you do with this.
